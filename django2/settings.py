@@ -84,18 +84,18 @@ WSGI_APPLICATION = 'django2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-"""""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django2',
-        'USER': 'adess',
-        'PASSWORD': '4815lost',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
-"""""
+
+# DATABASES = {
+#   'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'django2',
+#        'USER': 'adess',
+#        'PASSWORD': '4815lost',
+#        'HOST': 'localhost',
+#        'PORT': '3306',
+#    }
+# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -146,9 +146,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # configurações de e-mail
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-""""
-EMAIL_HOST = 'localhost'
-EMAIL_HOST_USER = 'no-replay@seudominio.com.br'
-EMAIL_USER_TSL = True
-EMAIL_HOST_PASSWORD = 'sua-senha'
-""""
+
+# EMAIL_HOST = 'localhost'
+# EMAIL_HOST_USER = 'no-replay@seudominio.com.br'
+# EMAIL_USER_TSL = True
+# EMAIL_HOST_PASSWORD = 'sua-senha'
